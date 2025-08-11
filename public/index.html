@@ -1,177 +1,89 @@
 <!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kart Kime Ait</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        .gradient-bg {
-            background: linear-gradient(135deg, #2261b4 0%, #a66e2a 100%);
-        }
-        .card-shadow {
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        }
-        .input-focus:focus {
-            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-        }
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/12.1.0/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/12.1.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/12.1.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/12.1.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/12.1.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/12.1.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/12.1.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/12.1.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/12.1.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/12.1.0/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+    <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
     </style>
-</head>
-<body class="gradient-bg min-h-screen">
-    <div class="container mx-auto px-4 py-8">
-        
-        <!-- Giriş Container -->
-        <div id="loginContainer" class="max-w-md mx-auto">
-            <div class="text-center mb-8">
-                <h1 class="text-4xl font-bold text-white mb-2">
-                    <i class="fas fa-lock mr-3"></i>
-                    Giriş Yap
-                </h1>
-                <p class="text-white/80 text-lg">Devam etmek için giriş yapın</p>
-            </div>
-            
-            <div class="bg-white rounded-2xl card-shadow p-8">
-                <form id="loginForm" class="space-y-6">
-                    <div>
-                        <label for="email" class="block text-gray-700 text-sm font-semibold mb-2">
-                            <i class="fas fa-user mr-2"></i>
-                            Kullanıcı Adı
-                        </label>
-                        <input 
-                            type="text" 
-                            id="email" 
-                            required
-                            placeholder="Kullanıcı adınızı girin..."
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg input-focus focus:outline-none focus:border-blue-500 transition-all duration-200 text-gray-700"
-                        >
-                    </div>
-                    
-                    <div>
-                        <label for="password" class="block text-gray-700 text-sm font-semibold mb-2">
-                            <i class="fas fa-key mr-2"></i>
-                            Şifre
-                        </label>
-                        <input 
-                            type="password" 
-                            id="password" 
-                            required
-                            placeholder="Şifrenizi girin..."
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg input-focus focus:outline-none focus:border-blue-500 transition-all duration-200 text-gray-700"
-                        >
-                    </div>
-                    
-                    <button 
-                        type="submit"
-                        id="loginBtn"
-                        class="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-3 px-6 rounded-lg hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-200 flex items-center justify-center"
-                    >
-                        <i class="fas fa-sign-in-alt mr-2"></i>
-                        Giriş Yap
-                    </button>
-                </form>
-                
-                <!-- Loading Spinner -->
-                <div id="loginLoading" class="hidden text-center mt-4">
-                    <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
-                    <p class="text-gray-600 mt-2">Giriş yapılıyor...</p>
-                </div>
-                
-                <!-- Error Mesajı -->
-                <div id="loginError" class="hidden mt-4 p-3 bg-red-100 border border-red-400 text-red-700 rounded-lg">
-                    <i class="fas fa-exclamation-triangle mr-2"></i>
-                    <span id="loginErrorText"></span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Ana Uygulama -->
-        <div id="mainApp" style="display: none;">
-            <!-- Header -->
-            <div class="text-center mb-8">
-                <div class="flex justify-between items-center mb-4">
-                    <div></div>
-                    <h1 class="text-4xl font-bold text-white">
-                        <i class="fas fa-credit-card mr-3"></i>
-                        Kart Kime Ait
-                    </h1>
-                    <button 
-                        id="logoutBtn"
-                        class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg transition-colors duration-200"
-                    >
-                        <i class="fas fa-sign-out-alt mr-2"></i>
-                        Çıkış
-                    </button>
-                </div>
-                <p class="text-white/80 text-lg">Lütfen kart bilgilerinizi girin</p>
-            </div>
-
-            <!-- Ana Kart -->
-            <div class="max-w-2xl mx-auto">
-                <div class="bg-white rounded-2xl card-shadow p-8">
-                <!-- Input Alanı -->
-                <div class="mb-6">
-                    <label for="cardInput" class="block text-gray-700 text-sm font-semibold mb-2">
-                        <i class="fas fa-edit mr-2"></i>
-                        Kart Bilgisi
-                    </label>
-                    <input 
-                        type="text" 
-                        id="cardInput" 
-                        placeholder="Kart numarasını girin (örn: 4950 2133 3213 5465)"
-                        class="w-full px-4 py-3 border border-gray-300 rounded-lg input-focus focus:outline-none focus:border-blue-500 transition-all duration-200 text-gray-700"
-                        maxlength="19"
-                    />
-                </div>
-
-                <!-- Buton -->
-                <div class="mb-6">
-                    <button 
-                        id="processBtn"
-                        class="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-3 px-6 rounded-lg hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-200 flex items-center justify-center"
-                    >
-                        <i class="fas fa-search mr-2"></i>
-                        Ara
-                    </button>
-                </div>
-
-                <!-- Loading Spinner -->
-                <div id="loadingSpinner" class="hidden text-center mb-4">
-                    <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
-                    <p class="text-gray-600 mt-2">İşleniyor...</p>
-                </div>
-
-                <!-- Output Alanı -->
-                <div id="outputArea" class="hidden">
-                    <label class="block text-gray-700 text-sm font-semibold mb-2">
-                        <i class="fas fa-result mr-2"></i>
-                        Sonuç
-                    </label>
-                    <div id="outputContent" class="bg-gray-50 border border-gray-200 rounded-lg p-4 min-h-[100px]">
-                        <!-- Sonuç burada görünecek -->
-                    </div>
-                </div>
-
-                <!-- Error Mesajı -->
-                <div id="errorMessage" class="hidden mt-4 p-3 bg-red-100 border border-red-400 text-red-700 rounded-lg">
-                    <i class="fas fa-exclamation-triangle mr-2"></i>
-                    <span id="errorText"></span>
-                </div>
-            </div>
-        </div>
-
-                </div>
-            </div>
-            
-            <!-- Footer -->
-            <div class="text-center mt-8">
-                <p class="text-white/60 text-sm">
-                    © TACER GRUP - emrethci
-                </p>
-            </div>
-        </div>
+  </head>
+  <body>
+    <div id="message">
+      <h2>Welcome</h2>
+      <h1>Firebase Hosting Setup Complete</h1>
+      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
     </div>
+    <p id="load">Firebase SDK Loading&hellip;</p>
 
-    <script src="script.js"></script>
-</body>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const loadEl = document.querySelector('#load');
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = [
+            'auth', 
+            'database', 
+            'firestore',
+            'functions',
+            'messaging', 
+            'storage', 
+            'analytics', 
+            'remoteConfig',
+            'performance',
+          ].filter(feature => typeof app[feature] === 'function');
+          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
 </html>
