@@ -1,0 +1,784 @@
+{
+  "cards": [
+    {
+      "cardNumber": "4950028928684957",
+      "companyName": "VİNA KUYUMCULUK",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950029813611208",
+      "companyName": "VİNA KUYUMCULUK",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950020708911274",
+      "companyName": "VİNA KUYUMCULUK",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950021643954865",
+      "companyName": "HG İNOVASYON",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950020250246953",
+      "companyName": "HG İNOVASYON",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950027431506513",
+      "companyName": "HG İNOVASYON",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950028269702318",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950028300289772",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950026069354474",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950024056017684",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950027766769640",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020175867249",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950029347220121",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025981486971",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950026328658050",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023230306343",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950028852667724",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020879369588",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023507320197",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950027543747786",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023654618659",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950027200212837",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950030129052016",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025875362544",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023366329406",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950029101400398",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950026054287916",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020820555859",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023676588680",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950021754937078",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020327070752",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023684240712",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950022695733894",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950021466964909",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950027051415418",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950029331989241",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950027564152827",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025438276522",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950026143430081",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023419171918",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023642754104",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950024232569706",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950027904115849",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950026276289834",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950022618218080",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023231834983",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950024127446616",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023412572673",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950029144420237",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950028976783100",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023393763976",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950024914904091",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023119931306",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025345377042",
+      "companyName": "HEXCEL",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020296140507",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950029307567783",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950029880828844",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020556314806",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950024237129902",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950022871594093",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020518821628",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950028768911268",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950022070481392",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023811928082",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950022170148154",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025097316838",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025047717394",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950024204646955",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950026902358363",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020872142778",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025419064389",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950026729452937",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950026018052024",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950028476352216",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025010235986",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023430114204",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950024726425425",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950027804508953",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950021053859634",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020551598267",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020204904998",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025187755050",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025154512626",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950029273042152",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025031465599",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950027853561543",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950021421771658",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950022524382016",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950021038161600",
+      "companyName": "ADC MAKİNE",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020296140507",
+      "companyName": "YARGITAY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950029307567783",
+      "companyName": "YARGITAY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950028325965549",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950022041902445",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020319888058",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950022296200614",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950026407384413",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950024713310222",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025608043165",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023225667463",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950024912879561",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950029134737805",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020996759810",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950024203785201",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023245594401",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950022462098297",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950028607730267",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025283834123",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020713304646",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950022538593133",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023928854161",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950023511745053",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950029918107128",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950027268149717",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950027284360070",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950027329252216",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950025463134468",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020957737710",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950021029718912",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950026532359650",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020944454722",
+      "companyName": "ATLAS PNÖMATİK",
+      "cardType": "MARKET KARTI"
+    },
+    {
+      "cardNumber": "4950020089458524",
+      "companyName": "HÜSEYİN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950029520115933",
+      "companyName": "HÜSEYİN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950024643347570",
+      "companyName": "HÜSEYİN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950021302555896",
+      "companyName": "HÜSEYİN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950022697711186",
+      "companyName": "HÜSEYİN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950024351462950",
+      "companyName": "HÜSEYİN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950021963205481",
+      "companyName": "HÜSEYİN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950020892648555",
+      "companyName": "HÜSEYİN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950023788022209",
+      "companyName": "HÜSEYİN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950024914262517",
+      "companyName": "HÜSEYİN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950026425555072",
+      "companyName": "HÜSEYİN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950022283730497",
+      "companyName": "HÜSEYİN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950025358129689",
+      "companyName": "ERCAN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950028748244500",
+      "companyName": "ERCAN BEY",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950027441656627",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950022857738434",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950026118821400",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950029238925672",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950028536733703",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950021830588168",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950026792082633",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950021026478118",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950029963143355",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950025994524090",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950024208057419",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950020373623699",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950020731477020",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950026841246048",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950027581424990",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950028169998397",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950028362928880",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950024390620092",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950023911678364",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950021289649727",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950027604760145",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    },
+    {
+      "cardNumber": "4950028420472709",
+      "companyName": "BEYDEKOR",
+      "cardType": "GİYİM KARTI"
+    }
+  ]
+}
