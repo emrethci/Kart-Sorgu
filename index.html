@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kart Kime Ait</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #2261b4 0%, #a66e2a 100%);
+        }
+        .card-shadow {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .input-focus:focus {
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        
+        <!-- Giriş Container -->
+        <div id="loginContainer" class="max-w-md mx-auto">
+            <div class="text-center mb-8">
+                <h1 class="text-4xl font-bold text-white mb-2">
+                    <i class="fas fa-lock mr-3"></i>
+                    Giriş Yap
+                </h1>
+                <p class="text-white/80 text-lg">Devam etmek için giriş yapın</p>
+            </div>
+            
+            <div class="bg-white rounded-2xl card-shadow p-8">
+                <form id="loginForm" class="space-y-6">
+                    <div>
+                        <label for="email" class="block text-gray-700 text-sm font-semibold mb-2">
+                            <i class="fas fa-user mr-2"></i>
+                            Kullanıcı Adı
+                        </label>
+                        <input 
+                            type="text" 
+                            id="email" 
+                            required
+                            placeholder="Kullanıcı adınızı girin..."
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg input-focus focus:outline-none focus:border-blue-500 transition-all duration-200 text-gray-700"
+                        >
+                    </div>
+                    
+                    <div>
+                        <label for="password" class="block text-gray-700 text-sm font-semibold mb-2">
+                            <i class="fas fa-key mr-2"></i>
+                            Şifre
+                        </label>
+                        <input 
+                            type="password" 
+                            id="password" 
+                            required
+                            placeholder="Şifrenizi girin..."
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg input-focus focus:outline-none focus:border-blue-500 transition-all duration-200 text-gray-700"
+                        >
+                    </div>
+                    
+                    <button 
+                        type="submit"
+                        id="loginBtn"
+                        class="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-3 px-6 rounded-lg hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-200 flex items-center justify-center"
+                    >
+                        <i class="fas fa-sign-in-alt mr-2"></i>
+                        Giriş Yap
+                    </button>
+                </form>
+                
+                <!-- Loading Spinner -->
+                <div id="loginLoading" class="hidden text-center mt-4">
+                    <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
+                    <p class="text-gray-600 mt-2">Giriş yapılıyor...</p>
+                </div>
+                
+                <!-- Error Mesajı -->
+                <div id="loginError" class="hidden mt-4 p-3 bg-red-100 border border-red-400 text-red-700 rounded-lg">
+                    <i class="fas fa-exclamation-triangle mr-2"></i>
+                    <span id="loginErrorText"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ana Uygulama -->
+        <div id="mainApp" style="display: none;">
+            <!-- Header -->
+            <div class="text-center mb-8">
+                <div class="flex justify-between items-center mb-4">
+                    <div></div>
+                    <h1 class="text-4xl font-bold text-white">
+                        <i class="fas fa-credit-card mr-3"></i>
+                        Kart Kime Ait
+                    </h1>
+                    <button 
+                        id="logoutBtn"
+                        class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg transition-colors duration-200"
+                    >
+                        <i class="fas fa-sign-out-alt mr-2"></i>
+                        Çıkış
+                    </button>
+                </div>
+                <p class="text-white/80 text-lg">Kart numarasını girerek sahibini öğrenin</p>
+            </div>
+
+            <!-- Ana İçerik -->
+            <div class="max-w-2xl mx-auto">
+                <!-- Input Alanı -->
+                <div class="bg-white rounded-2xl card-shadow p-8 mb-6">
+                    <div class="flex gap-4">
+                        <div class="flex-1">
+                            <label for="cardInput" class="block text-gray-700 text-sm font-semibold mb-2">
+                                <i class="fas fa-credit-card mr-2"></i>
+                                Kart Numarası
+                            </label>
+                            <input 
+                                type="text" 
+                                id="cardInput" 
+                                placeholder="Kart numarasını girin..."
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg input-focus focus:outline-none focus:border-blue-500 transition-all duration-200 text-gray-700"
+                            >
+                        </div>
+                        <div class="flex items-end">
+                            <button 
+                                id="processBtn"
+                                class="bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-3 px-6 rounded-lg hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-200 flex items-center"
+                            >
+                                <i class="fas fa-search mr-2"></i>
+                                Ara
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Loading Spinner -->
+                    <div id="loadingSpinner" class="hidden text-center mt-4">
+                        <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
+                        <p class="text-gray-600 mt-2">Aranıyor...</p>
+                    </div>
+                </div>
+
+                <!-- Sonuç Alanı -->
+                <div id="outputArea" class="hidden bg-white rounded-2xl card-shadow p-8">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                        <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                        Sonuç
+                    </h3>
+                    <div id="outputContent" class="text-gray-700"></div>
+                </div>
+
+                <!-- Hata Mesajı -->
+                <div id="errorMessage" class="hidden mt-4 p-4 bg-red-100 border border-red-400 text-red-700 rounded-lg">
+                    <i class="fas fa-exclamation-triangle mr-2"></i>
+                    <span id="errorText"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

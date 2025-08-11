@@ -3,7 +3,7 @@ let currentSessionToken = null;
 let currentUser = null;
 
 // Backend URL - Vercel'den alacağınız URL'i buraya yazın
-const API_BASE_URL = 'https://kart-sorgu.vercel.app'; // Bu URL'i Vercel'den aldıktan sonra güncelleyin
+const API_BASE_URL = 'https://kart-sorgu-xxxx.vercel.app'; // Bu URL'i Vercel'den aldıktan sonra güncelleyin
 
 // Sayfa yüklendiğinde otomatik giriş kontrolü
 document.addEventListener('DOMContentLoaded', function() {
