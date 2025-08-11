@@ -171,6 +171,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                ),
                                child: TextFormField(
                                  controller: _cardNumberController,
+                                 keyboardType: TextInputType.number,
                                  style: const TextStyle(fontSize: 16),
                                  decoration: InputDecoration(
                                    labelText: 'Kart Numarası',
